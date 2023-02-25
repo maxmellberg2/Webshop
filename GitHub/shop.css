@@ -1,0 +1,269 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    height: 100%;
+    
+    
+
+
+}
+
+.background{
+    display: flex;
+    background: url(Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-position: center;
+    margin-bottom: 100px;
+}
+
+nav{
+    background-color: white;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    margin-top: 0;
+    z-index: 1000;
+}
+label.logga{
+    color: black;
+    font-size: 35px;
+    line-height: 90px;
+    font-weight: bold;
+    padding: 0 100px;
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 35px;
+    font-size: 25px;
+    margin: 0 15px;
+    margin-top: 10px;
+}
+nav ul li a{
+    color: black;
+
+}
+ul{
+    list-style: none;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover,
+a.active{
+    color: orange;
+}
+.section-p1{
+    padding: 40px 80px;
+}
+.fe-box{
+    width: 300px;
+    text-align: center;
+    padding: 20px 10px;
+    border: 2px solid black;
+    border-color: black;
+
+}
+#fe-box:hover{
+    color: green;
+}
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    scroll-behavior: smooth;
+}
+.Nytt{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pilknapp{
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    
+}
+
+.products{
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.products .pro{
+    width: 20%;
+    padding: 10px 15px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: all 0.2s ease;
+}
+.products .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+.products .Stjarna{
+    color: gold;
+}
+.products .pro .cart{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    font-weight: 500;
+    color: black;
+}
+.products .pro:hover{
+    transform: scale(1.1);
+}
+
+#Het{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+
+}
+.klädernav{
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    flex-direction: row;
+    margin-top: 0px;
+
+}
+.klädertext{
+    display: flex;
+    line-height: 35px;
+    font-size: 25px;
+    margin-top: 0px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    list-style: none;
+
+}
+.products1{
+    text-align: start;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.products1 .pro{
+    width: 20%;
+    padding: 10px 15px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: all 0.2s ease;
+}
+.products1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+.products1 .Stjarna{
+    color: gold;
+}
+.products1 .pro .cart{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    font-weight: 500;
+    color: black;
+}
+.products1 .pro:hover{
+    transform: scale(1.1);
+}
+.footer{
+    opacity: 85%;
+    height: 350px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    background: url(banner.b.jpg);
+
+}
+.container{
+    max-width: 1200px;
+    background-color: white;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.footer-col h4{
+    font-size: 30px;
+    color: white;
+    height: 2px;
+    width: 50px;
+}
+.footer-col ul li a{
+    font-size: 20px;
+    color: gray
+}
+.footer-col ul li{
+    margin-bottom: 30px;
+    justify-content: space-around;
+    text-align: start;
+}
+.footer-col ul{
+    text-align: start;
+
+}
+.footer-col ul li a:hover{
+    color: white;
+    padding-left: 8px;
+}
+.footer-col .social a {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+.footer-col .social a:hover{
+    background-color: white;
+}
+.social{
+    margin-top: 100px;
+}
+.kort i:hover{
+    color: aqua;
+
+}

@@ -1,0 +1,39 @@
+
+    [
+      {
+        "id": 0,
+        "name": "Marcus Rashford Manchester United adidas 2022/23 Home Replica Player Jersey",
+        "brand": "Adidas",
+        "price": 799,
+        "image": "rashford.jpg",
+        "rating": 4,
+        "description": "Get your hands on the official Arsenal home kit for the 2022 season. Made by Adidas, this kit features the iconic red and white colors of the Gunners and is perfect for showing your support for the team." 
+      },
+      {
+        "id": 1,
+        "name": "Women 2022-23 Manchester City Phil Foden 47 Away Black And Red Authentic Jersey",
+        "brand": "Puma",
+        "price": 1199,
+        "image": "Phil.jpg",
+        "rating": 2,
+        "description": "Get your hands on the official Arsenal home kit for the 2022 season. Made by Nike, this kit features the iconic red and white colors of the Gunners and is perfect for showing your support for the team."
+      },
+      {
+        "id": 2,
+        "name": "Lionel Messi Paris Saint-Germain Nike 2022/23 Home Replica Player Jersey",
+        "brand": "Nike",
+        "price": 899,
+        "image": "messiburger.jpg",
+        "rating": 4,
+        "description": "Get your hands on the official Arsenal home kit for the 2022 season. Made by Adidas, this kit features the iconic red and white colors of the Gunners and is perfect for showing your support for the team."
+      },
+      {
+        "id": 3,
+        "name": "Kylian Mbappe France National Team Nike 2022/23 Away Breathe Stadium Replica Player Jersey",
+        "brand": "Nike",
+        "price": 899,
+        "image": "mbappe.avif",
+        "rating": 5,
+        "description": "Get your hands on the official Arsenal home kit for the 2022 season. Made by Adidas, this kit features the iconic red and white colors of the Gunners and is perfect for showing your support for the team."
+      }
+    ]
