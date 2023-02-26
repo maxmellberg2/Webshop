@@ -219,3 +219,51 @@ img{
 .social{
     margin-top: 100px;
 }
+@media (max-width: 700px) {
+    nav{
+        width: 500px;
+        flex-direction: column;
+    }
+    
+    nav ul {
+      flex-direction: row;
+    }
+    
+    nav li {
+      margin-bottom: 10px;
+    }
+    
+    .pilknapp h2 {
+      font-size: 24px;
+    }
+    
+    .fa-arrow-down {
+      font-size: 36px;
+    }
+    
+    .products {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 400px;
+
+    }
+    .products1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+  
+      }
+    .pro{
+        width: 100%;
+        max-width: 800px;
+    }
+    
+    .footer-col {
+      width: 100%;
+    }
+    .footer{
+        height: 900px;
+    }
+  }
