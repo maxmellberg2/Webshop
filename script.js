@@ -51,6 +51,7 @@ async function displayProducts() {
 }
 
 function addToCart(productId) {
+    alert("Varan har lagts till i Varukorgen")
 
   var items = localStorage.getItem("items");
 
