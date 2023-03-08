@@ -30,7 +30,7 @@ async function displayProducts() {
       }
       output += `
           <div class="pro">
-              <img src="${item.image}" alt="Lol">
+            <a href=${item.href}><img src="${item.image}" alt="Lol"></a>
               <span>${item.brand}</span>
               <h5>${item.name}</h5>
               <div class="Stjarna">
@@ -169,4 +169,7 @@ async function loadCartItems() {
   document.getElementById('shipping').textContent = "Frakt: " + shipping + " kr";
   document.getElementById('sub-tot').textContent = "Del total: " + subCost + "kr ";
   document.getElementById('tot-cost').textContent = "Total kostnad: " + totCost + " kr";
+
+
+
 }
