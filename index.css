@@ -202,92 +202,102 @@ a.active{
     color: aqua;
 
 }
-@media only screen and (max-width: 700px) {
     
-    nav {
-      display: block;
-      text-align: center;
-      height: 150px;
-    }
+    @media only screen and (max-width: 700px) {
     
-    .logga {
-      font-size: 1.5rem;
-      margin-right: 0;
-    }
-    .background{
-        height: 300px;
-        background-position: center;
-    }
+        nav {
+          display: block;
+          text-align: center;
+          height: 150px;
+        }
+        
+        .logga {
+          font-size: 1.5rem;
+          margin-right: 0;
+        }
+        .background{
+            height: 300px;
+            background-position: center;
+        }
+        
+        ul {
+          margin-top: 0;
+          margin-bottom: 1rem;
+          padding-left: 0;
+          display: block;
+        }
+        
+        li {
+          display: inline-block;
+          margin-right: 1rem;
+        }
+        
+        .fa-cart-shopping {
+          font-size: 1.5rem;
+        }
+        
+        .pilknapp {
+          text-align: center;
+        }
+        
+        .fa-arrow-down {
+          font-size: 1.5rem;
+        }
+        
+        .products {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          gap: 50px;
+          align-items: center;
     
-    ul {
-      margin-top: 0;
-      margin-bottom: 1rem;
-      padding-left: 0;
-      display: block;
-    }
-    
-    li {
-      display: inline-block;
-      margin-right: 1rem;
-    }
-    
-    .fa-cart-shopping {
-      font-size: 1.5rem;
-    }
-    
-    .pilknapp {
-      text-align: center;
-    }
-    
-    .fa-arrow-down {
-      font-size: 1.5rem;
-    }
-    
-    .products {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      gap: 50px;
-      align-items: center;
-
-    }
-    
-    .pro {
-      width: 300px;
-      margin-bottom: 1rem;
-    }
-    
-    .pro img {
-      width: 200px;
-    }
-    
-    .Stjarna {
-      margin-top: 0.5rem;
-    }
-    
-    .kort {
-      text-align: center;
-      margin-top: 0.5rem;
-    }
-    
-    .cart {
-      font-size: 1.5rem;
-    }
-    
-    .social {
-      display: flex;
-      justify-content: center;
-    }
-    
-    .social i {
-      font-size: 1.5rem;
-      margin-right: 1rem;
-    }
-    .footer-col {
-        width: 100%;
-      }
-      .footer{
-          height: 900px;
-      }
-    }
+        }
+        .products1 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 50px;
+            align-items: center;
+      
+          }
+        
+        .pro {
+          width: 300px;
+          margin-bottom: 1rem;
+        }
+        
+        .pro img {
+          width: 200px;
+        }
+        
+        .Stjarna {
+          margin-top: 0.5rem;
+        }
+        
+        .kort {
+          text-align: center;
+          margin-top: 0.5rem;
+        }
+        
+        .cart {
+          font-size: 1.5rem;
+        }
+        
+        .social {
+          display: flex;
+          justify-content: center;
+        }
+        
+        .social i {
+          font-size: 1.5rem;
+          margin-right: 1rem;
+        }
+        .footer-col {
+            width: 100%;
+          }
+          .footer{
+              height: 900px;
+          }
+        }
+        
   
